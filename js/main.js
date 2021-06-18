@@ -1,0 +1,41 @@
+$('.slider--1').owlCarousel({
+    loop:true,
+    autoplay:true,
+    margin:10,
+    nav:false,
+    dots:true,
+    autoplayTimeout:5000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+$('.slider--2').owlCarousel({
+    loop:true,
+    autoplay:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplayTimeout:4000,
+    responsive:{
+        0:{
+            items:1
+        },
+        250:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
